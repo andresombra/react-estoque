@@ -54,7 +54,7 @@ export default function EmpresaList() {
       </button>
 
       {error && <div className="alert alert-danger">Erro: {error}</div>}
-
+<h3>TEMP</h3>
       {empresas.length > 0 ? (
         <table className="table table-bordered table-striped mt-3 responsive">
           <thead>
